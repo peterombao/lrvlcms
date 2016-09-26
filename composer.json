@@ -1,6 +1,7 @@
 {
     "name": "peterombao/lrvlcms",
     "require": {},
+    "homepage": "https://github.com/peterombao/lrvlcms",
     "autoload": {
         "psr-4": {
             "Peterombao\\Lrvlcms\\": "src/"
