@@ -1,5 +1,10 @@
 {
     "name": "peterombao/lrvlcms",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Peterombao\\Lrvlcms\\": "src/"
+        }
+    }
 }
