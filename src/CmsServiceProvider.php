@@ -1,6 +1,6 @@
 <?php
 
-namespace Cmspackage\Cms;
+namespace Peterombao\Lrvlcms;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,6 +24,6 @@ class CmsServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes.php';
-        $this->app->make('Cmspackage\Cms\CmsController');
+        $this->app->make('Peterombao\Lrvlcms\CmsController');
     }
 }

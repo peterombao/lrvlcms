@@ -1,4 +1,4 @@
-<?php namespace Cmspackage\Cms;
+<?php namespace Peterombao\Lrvlcms;
 
 
 use App\Http\Controllers\Controller;
